@@ -54,6 +54,13 @@ users = {
   }
 }
 
-smallest = users["Erik"]["lottery_numbers"]
-smallest.sort()
-print(f"The smallest number in Erik's Lottery is {smallest[:1]}")
+# Print Avril's even lottery numbers
+for num in users["Avril"]["lottery_numbers"]:
+    if num % 2 == 0:
+        print(num)
+
+
+# Get Erik's smallest lottery number
+# smallest = users["Erik"]["lottery_numbers"]
+# smallest.sort()
+# print(f"The smallest number in Erik's Lottery is {smallest[:1]}")
