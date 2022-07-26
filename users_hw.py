@@ -54,8 +54,25 @@ users = {
   }
 }
 
-users["Erik"]["pets"][0]["dog"] = "Fluffy"
-print(users["Erik"]["pets"][0]["dog"])
+# Add a new user to the dictionary
+users.update({"Steven": {
+    "twitter": "flarephotos",
+    "lottery_numbers": [2, 5, 7, 9, 21, 45],
+    "home_town": "Haddington",
+    "pets": [
+      {
+        "name": "Callie",
+        "species": "dog"
+      }
+    ]
+  }})
+
+
+# users.update({"Steven"})
+
+# Add a dog to Erik called Fluffy
+# users["Erik"]["pets"][0]["dog"] = "Fluffy"
+# print(users["Erik"]["pets"][0]["dog"])
 
 
 # Change home town to Edinburgh for Erik
