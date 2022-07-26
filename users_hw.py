@@ -54,4 +54,4 @@ users = {
   }
 }
 
-print(users["Erik"]["lottery_numbers"])
+print(users["Avril"]["pets"][0]["species"])
