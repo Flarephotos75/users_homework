@@ -53,3 +53,5 @@ users = {
     ]
   }
 }
+
+print(users["Jonathan"]["twitter"])
