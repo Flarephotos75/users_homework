@@ -54,9 +54,13 @@ users = {
   }
 }
 
+users["Erik"]["pets"][0]["dog"] = "Fluffy"
+print(users["Erik"]["pets"][0]["dog"])
+
+
 # Change home town to Edinburgh for Erik
-users["Erik"]["home_town"] = "Edinburgh"
-print(users["Erik"]["home_town"])
+# users["Erik"]["home_town"] = "Edinburgh"
+# print(users["Erik"]["home_town"])
 
 
 # Amend lottery numbers for Erik to add the number 7
