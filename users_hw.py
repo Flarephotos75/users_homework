@@ -54,4 +54,6 @@ users = {
   }
 }
 
-print(users["Avril"]["pets"][0]["species"])
+smallest = users["Erik"]["lottery_numbers"]
+smallest.sort()
+print(f"The smallest number in Erik's Lottery is {smallest[:1]}")
