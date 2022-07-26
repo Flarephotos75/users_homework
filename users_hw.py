@@ -54,4 +54,4 @@ users = {
   }
 }
 
-print(users["Erik"]["home_town"])
+print(users["Erik"]["lottery_numbers"])
