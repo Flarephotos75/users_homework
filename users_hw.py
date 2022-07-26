@@ -54,10 +54,18 @@ users = {
   }
 }
 
+# Amend lottery numbers for Erik to add the number 7
+ltamend = users["Erik"]["lottery_numbers"]
+print(ltamend)
+ltamend = ltamend + [7]
+print(ltamend)
+users["Erik"]["lottery_numbers"] = ltamend
+print(users["Erik"]["lottery_numbers"])
+
 # Print Avril's even lottery numbers
-for num in users["Avril"]["lottery_numbers"]:
-    if num % 2 == 0:
-        print(num)
+# for num in users["Avril"]["lottery_numbers"]:
+#     if num % 2 == 0:
+#         print(num)
 
 
 # Get Erik's smallest lottery number
